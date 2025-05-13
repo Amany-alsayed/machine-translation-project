@@ -22,7 +22,6 @@ You will need the following Python libraries:
 - nltk
 
 ## Dataset
-
 The Tatoeba dataset (Arabic to English) is used for training and evaluation. You can access it from Hugging Face's datasets library:
 
 [Hugging Face Tatoeba Dataset](https://huggingface.co/datasets/tatoeba)
@@ -34,6 +33,8 @@ from datasets import load_dataset
 
 # Load the Tatoeba dataset (Arabic to English)
 dataset = load_dataset("tatoeba", lang1="ar", lang2="en")
+```
+
 
 ## Model Description
 
